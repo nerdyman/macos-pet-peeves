@@ -16,6 +16,10 @@
     - Only scrolling option zooms the entire screen
 - Emoji Picker is sloooow and pastes the emoji where your cursor is - I want to copy it to my clipboard
 
+## DX
+
+- Can't set a default terminal emulator - it's always iterm
+
 ## Window Management
 
 - No "Always on top" functionality to keep some windows above others
@@ -31,7 +35,8 @@
 - Delete key on external keyboard does not delete files in Finder
 - Home/End keys on external keyboard need custom keybindings to work
 - Can't switch to a different workspace on another monitor using the keyboard
-- The UK layout sometimes messes up and switches `|` and ` ` ` but the UI thinks it's correct
+- The UK layout sometimes messes up and switches `|` and `` ` `` but the keyboard manager thinks it's correct
+    - Then need to use the terminal to delete the keyboard profiles because there's no way to do it in the UI
 - There doesn't seem to be much logic around when a shortcut should be option and when it should be command
 
 ## Installing Apps
