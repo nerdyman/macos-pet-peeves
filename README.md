@@ -14,12 +14,14 @@
 
 - Can't zoom scroll with mouse wheel in browsers
     - Only scrolling option zooms the entire screen
+- Emoji Picker is sloooow and pastes the emoji where your cursor is - I want to copy it to my clipboard
 
 ## Window Management
 
 - No "Always on top" functionality to keep some windows above others
 - Workspace auto switches when last window is closed
 - Can't install customised window managers to resolve the keyboard & workspace issues without disabling security features
+- Some windows have a 1px gap at the top showing the background between the window and the menu
 
 ## Keyboard Usage
 
@@ -29,14 +31,14 @@
 - Delete key on external keyboard does not delete files in Finder
 - Home/End keys on external keyboard need custom keybindings to work
 - Can't switch to a different workspace on another monitor using the keyboard
-- The UK layout sometimes messes up and switches `|` and `\`` but the UI thinks it's correct
+- The UK layout sometimes messes up and switches `|` and ` ` ` but the UI thinks it's correct
 - There doesn't seem to be much logic around when a shortcut should be option and when it should be command
 
 ## Installing Apps
 
 - App store is mostly useless - it doesn't even have basic apps like Google Chrome
-- No built in package manager (although Homebrew is awesome)
-- Need to go to individual websites to download some software
+- No built in package manager
+- Need to use third party package managers (which are dope btw) or go to individual websites to download most software
 
 ## Hardware Support
 
