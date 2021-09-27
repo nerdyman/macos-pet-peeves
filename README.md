@@ -1,0 +1,28 @@
+# macos pet peeves
+
+- Finder doesn't support cut
+- Save/open dialogs never remember where you were last
+- Can't add plugins to Spotlight without disabling SIP
+- Can't zoom scroll with mouse wheel
+- No "Always on top" functionality to keep some windows above others
+- Workspace auto switches when last window is closed
+- Keyboard usage is poor
+    - Tab navigation for dialogs is disabled by default
+    - No way to navigate Mission Control windows with the keyboard
+    - Cursor does not always follow when switching workspace or switching monitor with keyboard
+    - Delete key on external keyboard does not delete files in Finder
+    - Home/End keys on external keyboard need custom keybindings to work
+- No way to disable mouse acceleration on external mice (Logitech G502 Hero in this case)
+- Additional mouse buttons do not work out of the box and the third party logitech addon doesn't work either
+- Rendering of the UI looks terrible on normal HD devices
+    - Colors aren't as vibrant as they are on Linux and Windows
+    - Fonts are blurry and font weights vary
+    - Some colors e.g. bright red look like a bad quality JPEG
+    - There was previously an option to change these settings per display but it has been removed in the latest release
+- Can't show hidden files without also showing exentsions on all files (e.g. now "Safari.app" is shown)
+- Can't install customised window managers to resolve the keyboard & workspace issues without disabling security features
+- Installing software is cumbersome
+    - App store is mostly useless - it doesn't even have basic apps like Google Chrome
+    - No built in package manager (although Homebrew is awesome)
+    - Need to go to individual websites to download some software
+- M1 macbook pro only supports one external monitor
