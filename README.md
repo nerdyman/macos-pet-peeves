@@ -57,3 +57,4 @@
 - M1 macbook pro 
     - Only supports one external monitor
     - Only has two thunderbolt ports (and nothing else)
+    - Wifi is spotting when moving from one network to another (e.g. going from home to office) - it needs turned off and on again
