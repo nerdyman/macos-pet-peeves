@@ -35,7 +35,6 @@
 - Cursor does not always follow when switching workspace or switching monitor with keyboard (apps like MS Teams block focus switching somehow)
 - Delete key on external keyboard does not delete files in Finder
 - Home/End keys on external keyboard need custom keybindings to work
-- Can't switch to a different workspace on another monitor using the keyboard
 - The UK layout sometimes messes up and switches `|` and `` ` `` but the keyboard manager thinks it's correct
     - Then need to use the terminal to delete the keyboard profiles because there's no way to do it in the UI
 - There doesn't seem to be much logic around when a shortcut should be option and when it should be command
