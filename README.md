@@ -26,12 +26,13 @@
 - Workspace auto switches when last window is closed
 - Can't install customised window managers to resolve the keyboard & workspace issues without disabling security features
 - Some windows have a 1px gap at the top showing the background between the window and the menu
+- Cursor doesn't move to the active workspace when you switch to a workspace on another monitor using the keyboard
 
 ## Keyboard Usage
 
 - Tab navigation for dialogs is disabled by default
 - No way to navigate Mission Control windows with the keyboard
-- Cursor does not always follow when switching workspace or switching monitor with keyboard
+- Cursor does not always follow when switching workspace or switching monitor with keyboard (apps like MS Teams block focus switching somehow)
 - Delete key on external keyboard does not delete files in Finder
 - Home/End keys on external keyboard need custom keybindings to work
 - Can't switch to a different workspace on another monitor using the keyboard
@@ -43,7 +44,7 @@
 
 - App store is mostly useless - it doesn't even have basic apps like Google Chrome
 - No built in package manager
-- Need to use third party package managers (which are dope btw) or go to individual websites to download most software
+    - Need to use third party package managers or go to individual websites and manually download apps likes it's 1999
 
 ## Hardware Support
 
