@@ -15,6 +15,7 @@
 - Can't zoom scroll with mouse wheel in browsers
     - Only scrolling option zooms the entire screen
 - Emoji Picker is sloooow and pastes the emoji where your cursor is - I want to copy it to my clipboard
+    - [Solved by Raycast Emoji Search Extension](https://www.raycast.com/FezVrasta/emoji)
 
 ## DX
 
