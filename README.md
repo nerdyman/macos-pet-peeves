@@ -2,7 +2,7 @@
 
 ## Key
 
-- ✅ Resolved
+- ✅ Resolved by OS config change
 - ☑️ Resolved by third party tool
 
 ##  File Management
@@ -61,12 +61,12 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
 
 ## Hardware Support
 
-- ✅ "Natural" scroll direction sets both mouse *and* trackpad scroll direction which means the mouse scroll is backwards
+- ☑️ "Natural" scroll direction sets both mouse *and* trackpad scroll direction which means the mouse scroll is backwards
     - Solved by [LinearMouse](https://github.com/lujjjh/LinearMouse)
 - ☑️ No way to disable scroll acceleration on external mice (Logitech G502 Hero in this case)
     - Resolved by `defaults write .GlobalPreferences com.apple.scrollwheel.scaling -1` helps a little but it's still accelerated
     - Resolved by [LinearMouse](https://github.com/lujjjh/LinearMouse) also helps but still not as smooth as Linux
-- ✅ Additional mouse buttons (back and forward) don't work in finder but do everywhere else
+- ☑️ Additional mouse buttons (back and forward) don't work in finder but do everywhere else
     - Resolved by [LinearMouse](https://github.com/lujjjh/LinearMouse)
 - Rendering of the UI looks terrible on normal HD devices
     - Colors aren't as vibrant as they are on Linux and Windows
