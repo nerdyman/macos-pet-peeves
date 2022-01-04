@@ -3,7 +3,7 @@
 ## Key
 
 - ✅ Resolved
-- ☑️ Resolved(ish) with workaround
+- ☑️ Resolved by third party tool
 
 ##  File Management
 
@@ -14,7 +14,7 @@
 - Save/Open dialog doesn't support typing or editing the path, you have to use the dropdown or buttons
 - Spotlight search isn't as helpful as Gnome
 - ☑️ Can't add plugins to Spotlight without disabling SIP
-    - Resolved(ish) by replacing Spotlight with [Raycast](https://www.raycast.com/)
+    - Resolved by replacing Spotlight with [Raycast](https://www.raycast.com/)
 - Can't show hidden files without also showing exentsions on all files (e.g. now "Safari.app" is shown in Spotlight)
 
 ## UX
@@ -22,7 +22,7 @@
 - Can't zoom scroll with mouse wheel in browsers
     - Only scrolling option zooms the entire screen
 - ☑️ Emoji Picker is sloooow and pastes the emoji where your cursor is - I want to copy it to my clipboard
-    - [Resolved(ish) by Raycast Emoji Search Extension](https://www.raycast.com/FezVrasta/emoji)
+    - [Resolved by Raycast Emoji Search Extension](https://www.raycast.com/FezVrasta/emoji)
 - Dismissed notifications still show in the slide out menu
 
 ## DX
@@ -48,7 +48,7 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
 - No way to navigate Mission Control windows with the keyboard
 - Cursor does not always follow when switching workspace or switching monitor with keyboard (apps like MS Teams block focus switching somehow)
 - ☑️ `Delete`, `Home`, and `End` keys on external keyboard don't work
-    - Resolved(ish) with [Karbiner Elements](https://karabiner-elements.pqrs.org/)
+    - Resolved with [Karbiner Elements](https://karabiner-elements.pqrs.org/)
 - The UK layout sometimes messes up and switches `|` and `` ` `` but the keyboard manager thinks it's correct
     - Then need to use the terminal to delete the keyboard profiles because there's no way to do it in the UI
 - There doesn't seem to be much logic around when a shortcut should be option and when it should be command
@@ -64,8 +64,8 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
 - ✅ "Natural" scroll direction sets both mouse *and* trackpad scroll direction which means the mouse scroll is backwards
     - Solved by [LinearMouse](https://github.com/lujjjh/LinearMouse)
 - ☑️ No way to disable scroll acceleration on external mice (Logitech G502 Hero in this case)
-    - Resolved(ish) by `defaults write .GlobalPreferences com.apple.scrollwheel.scaling -1` helps a little but it's still accelerated
-    - Resolved(ish) by [LinearMouse](https://github.com/lujjjh/LinearMouse) also helps but still not as smooth as Linux
+    - Resolved by `defaults write .GlobalPreferences com.apple.scrollwheel.scaling -1` helps a little but it's still accelerated
+    - Resolved by [LinearMouse](https://github.com/lujjjh/LinearMouse) also helps but still not as smooth as Linux
 - ✅ Additional mouse buttons (back and forward) don't work in finder but do everywhere else
     - Resolved by [LinearMouse](https://github.com/lujjjh/LinearMouse)
 - Rendering of the UI looks terrible on normal HD devices
