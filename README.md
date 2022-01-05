@@ -77,3 +77,9 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
     - Only supports one external monitor
     - Only has two thunderbolt ports (and nothing else)
     - Wifi is spotty when moving from one network to another (e.g. going from home to office) - it needs turned off and on again
+
+## Upgrades
+
+- OS upgrade broke or removed some things
+    - Needed manually to reinstall xcode
+    - Nuked my sudoers file, had to edit it again
