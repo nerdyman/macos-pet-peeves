@@ -44,6 +44,9 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
 
 ## Keyboard Usage
 
+- PITA to add custom global shortcut to execute a script (mic mute toggle in this case)
+    - Automator script only worked if System Preferences app was kept open
+    - ☑️ Resolved by using custom execute script with Karabiner Elements
 - Tab navigation for dialogs is disabled by default
 - No way to navigate Mission Control windows with the keyboard
 - Cursor does not always follow when switching workspace or switching monitor with keyboard (apps like MS Teams block focus switching somehow)
