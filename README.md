@@ -9,6 +9,7 @@
 
 - Finder doesn't support cut (`cmd+x`) for files
 - Finder doesn't have a breadcrumb menu and doesn't have `cmd+l` support like Linux file managers and browsers to change the path
+    - Can quickly move directory with `cmd+shift+g` overlay but it doesn't start with the current working directory
 - Save/Open dialogs never remember where you were last
 - Save/Open dialog UI is all over the place and difficult to navigate
 - Save/Open dialog doesn't support typing or editing the path, you have to use the dropdown or buttons
