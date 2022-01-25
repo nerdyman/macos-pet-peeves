@@ -24,6 +24,8 @@
 - ☑️ Emoji Picker is sloooow and pastes the emoji where your cursor is - I want to copy it to my clipboard
     - [Resolved by Raycast Emoji Search Extension](https://www.raycast.com/FezVrasta/emoji)
 - Dismissed notifications still show in the slide out menu
+    - ✅ Can be disabled per-application in System Preferences -> Notifications and Focus -> App -> Uncheck "Show in Notifications Centre"
+- Allowing applications access to specific files, folders and events requires an application reload (e.g. launch a game, get prompt to allow access accessiblity API, must restart the game... super annoying)
 
 ## DX
 
@@ -37,6 +39,7 @@
 - Can't install customised window managers to resolve the keyboard & workspace issues without disabling security features
 - Some windows have a 1px gap at the top showing the background between the window and the menu
 - Cursor doesn't move to the active workspace when you switch to a workspace on another monitor using the keyboard
+- Windows of the same application are minimized when you minimize a window (e.g. when I minimize chrome on one screen it also does it on the other 💩)
 
 ### Notes
 
@@ -59,7 +62,7 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
 
 ## Managing Apps
 
-- App store is mostly useless - doesn't even have basic apps like Google Chrome and Firefox
+- App store is mostly useless - doesn't have basic apps like Google Chrome and Firefox
 - No built in package manager
     - Need to use third party package managers or go to individual websites to manually download apps likes it's 1999
 
@@ -77,10 +80,14 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
     - Fonts are blurry and font weights vary
     - Some colors e.g. bright red look like a bad quality JPEG
     - There was previously an option to change these settings per display but it has been removed in the latest release
-- M1 macbook pro 
+- 1st Gen M1 macbook pro
     - Only supports one external monitor
     - Only has two thunderbolt ports (and nothing else)
     - Wifi is spotty when moving from one network to another (e.g. going from home to office) - it needs turned off and on again
+
+## Gaming
+
+- Keys like ctrl and mouse thumb buttons aren't picked up by games
 
 ## Upgrades
 
