@@ -40,6 +40,8 @@
 - Some windows have a 1px gap at the top showing the background between the window and the menu
 - Cursor doesn't move to the active workspace when you switch to a workspace on another monitor using the keyboard
 - Windows of the same application are minimized when you minimize a window (e.g. when I minimize chrome on one screen it also does it on the other 💩)
+- Window managment isn't good at determining which window to choose when application has multiple windows (e.g. one monitor has chrome fullscreen and workspace is visible, other monitor has chrome on a different workspace - fullscreen window is chosen which disrupts the fullscreen video. i3 on Linux doesn't have this problem so it is possible to do)
+- Fullscreen windows (videos) are moved to a separate workspace while in fullscreen mode which is super annoying - why not leave it in the current workspace?
 
 ### Notes
 
