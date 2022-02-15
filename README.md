@@ -5,6 +5,10 @@
 - ✅ Resolved by OS config change
 - ☑️ Resolved by third party tool
 
+## Useful Links
+
+- [Open source macOS tools](https://github.com/stars/nerdyman/lists/macos-tools)
+
 ##  File Management
 
 - Finder doesn't support cut (`cmd+x`) for files
@@ -14,8 +18,8 @@
 - Save/Open dialog UI is all over the place and difficult to navigate
 - Save/Open dialog doesn't support typing or editing the path, you have to use the dropdown or buttons
 - Spotlight search isn't as helpful as Gnome
-- ☑️ Can't add plugins to Spotlight without disabling SIP
-    - Resolved by replacing Spotlight with [Raycast](https://www.raycast.com/)
+- Can't add plugins to Spotlight without disabling SIP
+    - ☑️ Resolved by replacing Spotlight with [Raycast](https://www.raycast.com/)
 - Can't show hidden files without also showing exentsions on all files (e.g. now "Safari.app" is shown in Spotlight)
 
 ## UX
