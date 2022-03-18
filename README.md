@@ -22,6 +22,8 @@
 - Can't add plugins to Spotlight without disabling SIP
     - ☑️ Resolved by replacing Spotlight with [Raycast](https://www.raycast.com/)
 - Can't show hidden files without also showing exentsions on all files (e.g. now "Safari.app" is shown in Spotlight)
+- Most of storage taken up by "System Data" but there's no way to clean it up
+    - Have resorted to nuking files in `~/Library/{Logs,Caches}` from the command line
 
 ## UX
 
