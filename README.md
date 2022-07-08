@@ -3,6 +3,7 @@
 ## Key
 
 - ✅ Resolved with OS config change
+- 🟠 Kind of resolved
 - ☑️ Resolved with third party tool
 
 ## Useful Links
@@ -40,6 +41,8 @@
 - Need to click twice on to focus a window on another monitor, once to focus the screen, then again to focus the window
 - No "Always on top" functionality to keep some windows above others
 - Workspace auto switches when last window is closed
+    - ✅ `defaults write -g AppleSpacesSwitchOnActivate -bool false`
+        - 🟠 this seems to break `cmd+tab` app switching to the correct workspace when the workspace is on the same screen
 - Closing a window (`cmd+w`) doesn't automatically focus the next available one - it only does this when an app is killed with `cmd+q`
 - Can't install customised window managers to resolve the keyboard & workspace issues without disabling security features
 - Some windows have a 1px gap at the top showing the background between the window and the menu
@@ -47,6 +50,7 @@
 - Windows of the same application are minimized when you minimize a window (e.g. when I minimize chrome on one screen it also does it on the other 💩)
 - Window managment isn't good at determining which window to choose when application has multiple windows (e.g. one monitor has chrome with fullscreen video playing and workspace is visible, other monitor has chrome on a different workspace - fullscreen window is chosen which disrupts the fullscreen video. i3 and Gnome are good at figuring this out)
 - Fullscreen windows (videos) are moved to a separate workspace while in fullscreen mode - why not leave it in the current workspace?
+- Can't switch to workspace on other screen with keyboard (e.g. focused on workspace 1 on screen 1, `ctrl+6` to go to workspace 6 on screen 2 does not focus the window on that screen)
 
 ### Notes
 
