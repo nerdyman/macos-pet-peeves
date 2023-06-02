@@ -64,6 +64,7 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
 - Tab navigation doesn't work on dialogs/modals
     - ✅ Resolved by enabling in keyboard preferences
 - No way to navigate Mission Control windows with the keyboard
+    - ☑️ Resolved by [AltTab](https://github.com/lwouis/alt-tab-macos)
 - Cursor does not always follow when switching workspace or switching monitor with keyboard (apps like MS Teams block focus switching somehow)
 - ☑️ `Delete`, `Home`, and `End` keys on external keyboard don't work
     - Resolved with [Karbiner Elements](https://karabiner-elements.pqrs.org/)
