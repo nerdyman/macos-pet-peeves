@@ -19,12 +19,13 @@
 - Save/Open dialogs don't remember where you were last
 - Save/Open dialog UI is all over the place and difficult to navigate
 - Save/Open dialog doesn't support typing or editing the path, you have to use the dropdown or buttons
-- Spotlight search isn't as helpful as Gnome
+- Open dialog sometimes take a long time to open (3+s)
+- Spotlight search isn't as helpful as Gnome's search
 - Can't add plugins to Spotlight without disabling SIP
     - ☑️ Resolved by replacing Spotlight with [Raycast](https://www.raycast.com/)
 - Can't show hidden files without also showing exentsions on all files (e.g. now "Safari.app" is shown in Spotlight)
 - Most of storage taken up by "System Data" but there's no way to clean it up
-    - Have resorted to nuking files in `~/Library/{Logs,Caches}` from the command line
+    - 🟠 Can nuke `~/Library/{Logs,Caches}` from the command line
 
 ## UX
 
@@ -41,16 +42,18 @@
 - Need to click twice on to focus a window on another monitor, once to focus the screen, then again to focus the window
 - No "Always on top" functionality to keep some windows above others
 - Workspace auto switches when last window is closed
-    - ✅ `defaults write -g AppleSpacesSwitchOnActivate -bool false`
-        - 🟠 this seems to break `cmd+tab` app switching to the correct workspace when the workspace is on the same screen
+    - 🟠 `defaults write -g AppleSpacesSwitchOnActivate -bool false`
+      - This seems to break `cmd+tab` app switching to the correct workspace when the workspace is on the same screen
 - Closing a window (`cmd+w`) doesn't automatically focus the next available one - it only does this when an app is killed with `cmd+q`
 - Can't install customised window managers to resolve the keyboard & workspace issues without disabling security features
 - Some windows have a 1px gap at the top showing the background between the window and the menu
 - Cursor doesn't move to the active workspace when you switch to a workspace on another monitor using the keyboard
+    - 🟠 Cursor moves when AltTab is used
 - Windows of the same application are minimized when you minimize a window (e.g. when I minimize chrome on one screen it also does it on the other 💩)
 - Window managment isn't good at determining which window to choose when application has multiple windows (e.g. one monitor has chrome with fullscreen video playing and workspace is visible, other monitor has chrome on a different workspace - fullscreen window is chosen which disrupts the fullscreen video. i3 and Gnome are good at figuring this out)
 - Fullscreen windows (videos) are moved to a separate workspace while in fullscreen mode - why not leave it in the current workspace?
 - Can't switch to workspace on other screen with keyboard (e.g. focused on workspace 1 on screen 1, `ctrl+6` to go to workspace 6 on screen 2 does not focus the window on that screen)
+- Some windows are too small and can't be maximised, e.g. System Settings
 
 ### Notes
 
@@ -76,7 +79,8 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
 
 - App store is mostly useless - doesn't have basic apps like Google Chrome and Firefox
 - No built in package manager
-    - Need to use third party package managers or go to individual websites to manually download apps likes it's 1999
+    - Need go to individual websites to manually download apps like it's 1999 or use third party package managers
+- Cumbersome to launch GUI apps from the command line
 
 ## Hardware Support
 
@@ -92,6 +96,12 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
     - Fonts are blurry and font weights vary
     - Some colors e.g. bright red look like a bad quality JPEG
     - There was previously an option to change these settings per display but it has been removed in the latest release
+- Rendering of UI is a bit blurry even on 4k displays
+    - After upgrade to 13.5.2 text is slightly blurry even on a 4k display
+
+## Virtualisation
+
+- Doesn't natively support containers, everything needs to run in a vm
 
 ## Gaming
 
@@ -99,6 +109,6 @@ Currently using https://ianyh.com/amethyst/ in "Fullscreen" mode with workspaces
 
 ## Upgrades
 
-- OS upgrade broke or removed some things
-    - Needed manually to reinstall xcode
-    - Nuked my sudoers file, had to edit it again
+- OS upgrades break or remove things
+    - Need to manually to reinstall xcode
+    - Nukes sudoers file
